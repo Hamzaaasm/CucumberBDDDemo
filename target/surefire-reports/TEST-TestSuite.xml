@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.634" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\arunm\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo\target\test-classes;D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo\target\classes;C:\Users\arunm\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\arunm\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\arunm\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\arunm\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\arunm\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\arunm\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\arunm\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\arunm\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\arunm\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\arunm\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\arunm\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\arunm\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\arunm\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\arunm\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\arunm\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\arunm\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\arunm\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\arunm\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\arunm\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\arunm\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\arunm\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\arunm\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\arunm\AppData\Local\Temp\surefire12216627468139708396\surefirebooter5430487717268157767.jar C:\Users\arunm\AppData\Local\Temp\surefire12216627468139708396 2021-07-01T12-46-46_762-jvmRun1 surefire5909524749822522350tmp surefire_04468017306814768020tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo\target\test-classes;D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo\target\classes;C:\Users\arunm\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\arunm\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\arunm\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\arunm\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\arunm\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\arunm\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\arunm\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\arunm\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\arunm\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\arunm\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\arunm\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\arunm\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\arunm\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\arunm\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\arunm\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\arunm\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\arunm\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\arunm\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\arunm\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\arunm\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\arunm\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\arunm\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\arunm\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\arunm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\arunm\AppData\Local\Temp\surefire12216627468139708396\surefirebooter5430487717268157767.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="arunm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\arunm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\arunm\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\CapgeminiSeleniumSpace\CBDDProjectTwoDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\arunm\AppData\Local\Programs\Python\Python39;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\arunm\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="feature[Login to the Omayo application](1)" classname="runner.Runner" time="30.641">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Feature: Login to the Omayo application
+
+  @Login @All
+  Scenario Outline: User should be able to login with valid credentials         &amp#27;[90m# login.feature:4&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI visit the omayo website&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter Username as <username> and Password <password> into the fields&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Login button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get logged in based on expected <loginstatus> status&amp#27;[0m
+
+    Examples: 
+
+  @Login @All
+  Scenario Outline: User should be able to login with valid credentials &amp#27;[90m# login.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the omayo website&amp#27;[0m                                     &amp#27;[90m# Login.i_visit_the_omayo_website()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter Username as &amp#27;[0m&amp#27;[32m&amp#27;[1marun&amp#27;[0m&amp#27;[32m and Password &amp#27;[0m&amp#27;[32m&amp#27;[1mpswd1&amp#27;[0m&amp#27;[32m into the fields&amp#27;[0m    &amp#27;[90m# Login.i_enter_username_and_password_into_the_fields(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Login button&amp#27;[0m                                         &amp#27;[90m# Login.i_click_on_login_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get logged in based on expected &amp#27;[0m&amp#27;[32m&amp#27;[1mfailure&amp#27;[0m&amp#27;[32m status&amp#27;[0m        &amp#27;[90m# Login.i_should_get_logged_in_based_on_expected_status(String)&amp#27;[0m
+
+  @Login @All
+  Scenario Outline: User should be able to login with valid credentials           &amp#27;[90m# login.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the omayo website&amp#27;[0m                                               &amp#27;[90m# Login.i_visit_the_omayo_website()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter Username as &amp#27;[0m&amp#27;[32m&amp#27;[1mSeleniumByArun&amp#27;[0m&amp#27;[32m and Password &amp#27;[0m&amp#27;[32m&amp#27;[1mTest143$&amp#27;[0m&amp#27;[32m into the fields&amp#27;[0m &amp#27;[90m# Login.i_enter_username_and_password_into_the_fields(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Login button&amp#27;[0m                                                   &amp#27;[90m# Login.i_click_on_login_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get logged in based on expected &amp#27;[0m&amp#27;[32m&amp#27;[1msuccess&amp#27;[0m&amp#27;[32m status&amp#27;[0m                  &amp#27;[90m# Login.i_should_get_logged_in_based_on_expected_status(String)&amp#27;[0m
+
+  @Login @All
+  Scenario Outline: User should be able to login with valid credentials &amp#27;[90m# login.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the omayo website&amp#27;[0m                                     &amp#27;[90m# Login.i_visit_the_omayo_website()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter Username as &amp#27;[0m&amp#27;[32m&amp#27;[1mmotoori&amp#27;[0m&amp#27;[32m and Password &amp#27;[0m&amp#27;[32m&amp#27;[1mpswd2&amp#27;[0m&amp#27;[32m into the fields&amp#27;[0m &amp#27;[90m# Login.i_enter_username_and_password_into_the_fields(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Login button&amp#27;[0m                                         &amp#27;[90m# Login.i_click_on_login_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get logged in based on expected &amp#27;[0m&amp#27;[32m&amp#27;[1mfailure&amp#27;[0m&amp#27;[32m status&amp#27;[0m        &amp#27;[90m# Login.i_should_get_logged_in_based_on_expected_status(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 12:46:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 12:47:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 24750
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 12:47:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Register into the TutorialsNinja application](2)" classname="runner.Runner" time="8.667">
+    <system-out><![CDATA[Feature: Register into the TutorialsNinja application
+
+  @Register @All @ValidRegisterDetails
+  Scenario: Register an account with all valid details                       &amp#27;[90m# register.feature:4&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the website&amp#27;[0m                                                &amp#27;[90m# register.i_visit_the_website()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to Register Account page&amp#27;[0m                                  &amp#27;[90m# register.i_navigate_to_register_account_page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter all the valid details into the Register Account page fields&amp#27;[0m &amp#27;[90m# register.i_enter_all_the_valid_details_into_the_register_account_page_fields(DataTable)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the Privacy Policy option&amp#27;[0m                                   &amp#27;[90m# register.i_select_the_privacy_policy_option()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Continue button&amp#27;[0m                                           &amp#27;[90m# register.i_click_on_continue_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI need to be taken to Account succes page&amp#27;[0m                           &amp#27;[90m# register.i_need_to_be_taken_to_account_succes_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21636
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 12:47:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Searching of various categories should be possible along with general search](3)" classname="runner.Runner" time="0.048">
+    <system-out><![CDATA[Feature: Searching of various categories should be possible along with general search
+  
+  It is good to provide an option to our end users where they can search for the products
+  based on their category, rather than only searching a product.This will increase our 
+  business and make end users happy.
+Given >> I visit the website as a guest user 
+
+  Background:                                 &amp#27;[90m# search.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the website as a guest user&amp#27;[0m &amp#27;[90m# Search.i_visit_the_website_as_a_guest_user()&amp#27;[0m
+When >> I select Books category from the search dropdown 
+And >> I click on Search icon button
+Then >> I should see the Search Results page for Books category is loaded
+And >> I should see the Books hot off the press as page heading
+But >> I should not other category products
+
+  @Search @Books @Smoke @All
+  Scenario: Search for the products under Books category                   &amp#27;[90m# search.feature:12&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select Books category from the search dropdown&amp#27;[0m                  &amp#27;[90m# Search.i_select_books_category_from_the_search_dropdown()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Search icon button&amp#27;[0m                                      &amp#27;[90m# Search.i_click_on_search_icon_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see the Search Results page for Books category is loaded&amp#27;[0m &amp#27;[90m# Search.i_should_see_the_search_results_page_for_books_category_is_loaded()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI should see the Books hot off the press as page heading&amp#27;[0m           &amp#27;[90m# Search.i_should_see_the_books_hot_off_the_press_as_page_heading()&amp#27;[0m
+    &amp#27;[32mBut &amp#27;[0m&amp#27;[32mI should not other category products&amp#27;[0m                               &amp#27;[90m# Search.i_should_not_other_category_products()&amp#27;[0m
+Given >> I visit the website as a guest user 
+
+  Background:                                 &amp#27;[90m# search.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit the website as a guest user&amp#27;[0m &amp#27;[90m# Search.i_visit_the_website_as_a_guest_user()&amp#27;[0m
+When >> I select Baby category from the search dropdown
+And >> I click on Search icon button
+Then >> I should see the Search Results page for Baby category is loaded
+And >> I should see the Baby Products as page heading
+But >> I should not other category products
+
+  @Search @Baby @All @Wip
+  Scenario: Search for the products under Baby category                   &amp#27;[90m# search.feature:21&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select Baby category from the search dropdown&amp#27;[0m                  &amp#27;[90m# Search.i_select_baby_category_from_the_search_dropdown()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Search icon button&amp#27;[0m                                     &amp#27;[90m# Search.i_click_on_search_icon_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see the Search Results page for Baby category is loaded&amp#27;[0m &amp#27;[90m# Search.i_should_see_the_search_results_page_for_baby_category_is_loaded()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI should see the Baby Products as page heading&amp#27;[0m                    &amp#27;[90m# Search.i_should_see_the_baby_products_as_page_heading()&amp#27;[0m
+    &amp#27;[32mBut &amp#27;[0m&amp#27;[32mI should not other category products&amp#27;[0m                              &amp#27;[90m# Search.i_should_not_other_category_products()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
